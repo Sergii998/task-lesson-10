@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+
+}
+[class*="square"]
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color:rgb(196, 193, 193);
+    display: flex;
+    border-radius:6px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 50%;
+}
+.first-squadre {
+    align-items: center;
+    justify-content: center;
+}
+
+.second-square {
+    justify-content:space-between;
+}
+
+.second-square .circle:last-child {
+    align-self: flex-end;
+}
