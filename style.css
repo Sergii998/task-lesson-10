@@ -24,10 +24,11 @@ body {
     width: 20px;
     height: 20px;
     margin: 3px;
+    padding: 11px;
     background-color: rgb(49, 49, 49);
     border-radius: 50%;
 }
-.first-squadre {
+.first-square {
     align-items: center;
     justify-content: center;
 }
@@ -39,3 +40,35 @@ body {
 .second-square .circle:last-child {
     align-self: flex-end;
 }
+
+.thred-square .circle:last-child {
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.center {
+    margin-top: 30px;
+}
+
+
+.fourth-square {
+    justify-content: space-between;
+    
+}
+
+.col-left {
+  
+}
+
+.fifth-square {
+    justify-content: space-between;
+
+}
+.col-center {
+    align-self: center;
+}
+
+.sixth-square {
+    justify-content: space-between;
+}    
+
